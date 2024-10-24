@@ -1,0 +1,22 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    background-color: #f8f9fa;
+  }
+  
+  
+  
+  
+  @media (max-width: 768px) {
+    .menu {
+      flex-direction: column;
+      gap: 10px;
+    }
+  
+    .footer-menu {
+      flex-direction: column;
+      gap: 10px;
+    }
+  }
+  

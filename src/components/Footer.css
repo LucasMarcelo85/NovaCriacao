@@ -1,0 +1,35 @@
+.footer {
+    background-color: #4fa6b9;
+    color: #fff;
+    padding: 30px;
+    text-align: center;
+  }
+  
+  .footer-logo {
+    width: 100px;
+    margin-bottom: 5px;
+  }
+  
+  .footer-menu {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .footer-menu a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .footer p {
+    margin-top: 20px;
+    color: #aac9eb;
+  }
+  .footer a:hover{
+    color: #aac9eb;
+  }
+   p a:hover{
+    text-decoration: none;
+   }
+  

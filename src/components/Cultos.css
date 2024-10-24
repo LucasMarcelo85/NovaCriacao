@@ -1,0 +1,72 @@
+.cultos-section {
+  padding: 50px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f5f5f5;
+}
+
+/* Garantir que o h2 fique no topo e centralizado */
+h2 {
+  width: 100%;
+  background-color: #458492de;
+  border-radius: 40px;
+  transition: transform 0.3s ease;
+  font-size: 2rem;
+  color: #fff;
+  text-align: center;
+  padding: 10px 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin-bottom: 40px; /* Adicionar espaçamento abaixo do título */
+}
+
+.culto-image {
+  border-radius: 20px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  width: 100%;
+  max-width: 380px;
+  height: auto;
+
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.culto-image:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* Exibição lado a lado em telas maiores */
+@media (min-width: 769px) {
+  .cultos-section {
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+
+  .culto-image {
+    margin: 20px;
+  }
+}
+
+/* Responsividade para tablets */
+@media (max-width: 768px) {
+  .culto-image {
+    max-width: 300px;
+  }
+
+  h2 {
+    font-size: 1.8rem;
+  }
+}
+
+/* Responsividade para mobile */
+@media (max-width: 480px) {
+  .culto-image {
+    max-width: 100%;
+    border-radius: 15px;
+  }
+
+  h2 {
+    font-size: 1.6rem;
+  }
+}
